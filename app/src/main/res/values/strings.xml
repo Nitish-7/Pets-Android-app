@@ -47,4 +47,6 @@
     <!-- Label for dropdown menu option if the pet is female [CHAR LIMIT=20] -->
     <string name="gender_female">Female</string>
 
+    <string name="empty_view_txt">Add New Pet</string>
+
 </resources>

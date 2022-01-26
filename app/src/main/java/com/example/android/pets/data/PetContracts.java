@@ -1,11 +1,17 @@
+
 package com.example.android.pets.data;
 
+import android.net.Uri;
 import android.provider.BaseColumns;
 
 public final class PetContracts {
     private PetContracts(){}
 
     public static final class PetEntry implements BaseColumns{
+
+        public static final String PET_PATH = "pets";
+        public static final String PET_CONTENT_AUTHORITY = "com.example.android.pets";
+        public static final Uri BASE_URI = Uri.parse("content://com.example.android.pets/"+PET_PATH);
 
         public static final String TABLE_NAME = "pets";
 
